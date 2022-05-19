@@ -1,0 +1,64 @@
+body{
+    height: auto;
+    margin:0%;
+}
+
+header > h1 {
+    background:red;
+    margin:0%;
+    padding: 0px;
+    text-align:right;
+}
+
+#navigate{
+    position: sticky;
+    top:0%;
+}
+
+.menu{
+    display: block;
+    margin: 0%;
+    background-color: rgb(0, 0, 0, 0.5);
+    top:0%;
+}
+
+.menu li {
+    display: inline-block;
+    padding: 10px;
+}
+
+.menu li a {
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.menu li:hover {
+    background-color: rgb(0,0,0,0.7);
+}
+
+.menu li:nth-child(2):hover #dd1, .menu li:nth-child(3):hover #dd2 {
+    display: block;      
+}
+
+#dd1, #dd2{
+    position: absolute;
+    width: auto;
+    display: none;
+    max-width: 200px;
+    background-color: whitesmoke;
+    padding: 0%;
+    top:42.5px;
+}
+#dd1 li, #dd2 li{
+    display: block;
+}
+
+#dd1 li:hover, #dd2 li:hover{
+    background-color: lightgray;
+    color: black;
+} 
+#dd1 li a, #dd2 li a{
+    color: black;
+    font-size: 16px;;
+}
